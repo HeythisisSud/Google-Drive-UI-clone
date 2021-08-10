@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Document</title>
 </head>
 <style>
@@ -15,7 +17,7 @@
     }
     .heading1{
         font-family: 'Georama', sans-serif;
-        font-size: 24px;
+        font-size: 22px;
         color: rgb(85, 85, 85);
         font-weight: bold;
         margin-left: 1.2cm;
@@ -28,16 +30,63 @@
         margin-top: 0.5cm;
         position: absolute;
     }
+    .header1{
+        margin-top: 0.5cm;
+    }
+
+    .searchbar{
+        width: 19cm;
+        height: 1.3cm;
+        font-size: 16px;
+        top: 0;
+        margin-top: 0.2cm;
+        margin-left: 6cm;
+        position: absolute;
+        background-color: rgb(238, 238, 238);
+        border-style: none;
+        border-radius: 6px;
+        padding-left: 47px;
+        color: gray;
+
+    }
+    #searchicon{
+        position: absolute;
+        margin-top: -1.04cm;
+        margin-left: 6.3cm;
+        color: rgb(116, 114, 114);
+
+    }
+    #tuneicon{
+        position: absolute;
+        margin-left: 24cm;
+        margin-top: -1cm;
+        color: rgb(116, 114, 114);
+        
+    }
+    #helpicon{
+        position: absolute;
+        margin-left: 34.6cm;
+        margin-top: -1.02cm;
+        color: rgb(116, 114, 114);
+    }
 </style>
 <body>
     <div class="div1">
         <h1 class="heading1">Drive</h1>
         <img src="drivelogo.jpg" class="drivelogo">
+        <div>
+            <input type="search" placeholder="Search in Drive" class="searchbar">
+            <i class="material-icons" id="searchicon">search</i>
+            <i class="material-icons" id="tuneicon">tune</i>
+            <i class="material-icons" id="helpicon">help_outline</i>
+
+        </div>
+        
 
 
     </div>
     <hr class='header1'>
-    
+
     
 </body>
 </html>
