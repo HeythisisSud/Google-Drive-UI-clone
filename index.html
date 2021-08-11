@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asettings%3A
       rel="stylesheet">
@@ -43,9 +43,9 @@
         margin-top: 0.2cm;
         margin-left: 6cm;
         position: absolute;
-        background-color: rgb(238, 238, 238);
+        background-color: rgb(243, 243, 243);
         border-style: none;
-        border-radius: 6px;
+        border-radius: 8px;
         padding-left: 47px;
         color: gray;
 
@@ -66,12 +66,38 @@
     }
     #helpicon{
         position: absolute;
-        margin-left: 34.6cm;
+        margin-left: 30cm;
         margin-top: -1.02cm;
         color: rgb(116, 114, 114);
     }
-    #settingsicon{
+    #languageicon{
         color: rgb(116, 114, 114);
+        position: absolute;
+        margin-left: 31.1cm;
+        margin-top: -1.02cm;
+    }
+    #appsicon{
+        color: rgb(116, 114, 114);
+        position: absolute;
+        margin-left: 33cm;
+        margin-top: -1.02cm;
+    }
+    .pfp{
+        position: absolute;
+        margin-left: 34.2cm;
+        margin-top: -1.2cm;
+        width: 0.9cm;
+        border-radius: 50%;
+    }
+    .new{
+        width: 3cm;
+        height: 1.3cm;
+        border-radius: 30px;
+        border-style: none;
+        background-color: white;
+        font-weight: bold;
+        box-shadow: 1px 2px 2px 1px rgb(181, 181, 181);
+        font-family: 'Roboto', sans-serif;
     }
 </style>
 <body>
@@ -83,14 +109,16 @@
             <i class="material-icons" id="searchicon">search</i>
             <i class="material-icons" id="tuneicon">tune</i>
             <i class="material-icons" id="helpicon">help_outline</i>
-            <i class="material-icons" id="settingsicon">settings</i>
-
+            <i class="material-icons" id="languageicon">language</i>
+            <i class="material-icons" id="appsicon">apps</i>
+            <img src="pfp.webp" class="pfp">
         </div>
-        
-
-
     </div>
-    <hr class='header1'>
+    <div>
+        <hr class='header1'>
+        <input type="button" value="New" class="new">
+    </div>
+
 
     
 </body>
