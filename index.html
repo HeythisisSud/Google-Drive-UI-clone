@@ -90,15 +90,31 @@
         border-radius: 50%;
     }
     .new{
-        width: 3cm;
+        width: 3.2cm;
         height: 1.3cm;
         border-radius: 30px;
         border-style: none;
         background-color: white;
         font-weight: bold;
-        box-shadow: 1px 2px 2px 1px rgb(181, 181, 181);
+        box-shadow: 1px 1px 1px 1.6px rgb(206, 206, 206);
         font-family: 'Roboto', sans-serif;
+        padding-left: 27px;
     }
+
+    #linkicon{
+        position: absolute;
+        left: 0;
+        margin-left: 0.6cm;
+        margin-top: 0.3cm;
+        
+
+    }
+    #booksicon{
+        color: rgb(116, 114, 114);
+        position: absolute;
+
+    }
+
 </style>
 <body>
     <div class="div1">
@@ -117,6 +133,8 @@
     <div>
         <hr class='header1'>
         <input type="button" value="New" class="new">
+        <i class="material-icons" id="linkicon">link</i>
+        <i class="material-icons" id="booksicon">library_books</i>
     </div>
 
 
